@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrettyBlink CO - Price Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #fcebeb, #fbe9f2);
+        }
+    </style>
+</head>
+<body class="text-gray-800 antialiased">
+
+    <!-- Main Container -->
+    <div class="container mx-auto p-6 md:p-10">
+        
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-pink-600 mb-2 drop-shadow-md">PrettyBlink CO</h1>
+            <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+                Lashes so lovely, they speak without a single word. Our artistry is designed to whisper elegance and charm into every glance.
+            </p>
+        </header>
+
+        <!-- Menu Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- The Natural Wink -->
+            <div class="bg-white rounded-3xl overflow-hidden shadow-2xl hover:shadow-pink-300/50 transition-shadow duration-300">
+                <img src="https://placehold.co/800x600/f8e7f2/fff?text=The+Natural+Wink" alt="A photo of a natural lash set" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">The Natural Wink</h2>
+                    <p class="text-sm text-gray-500 mb-4">A single, soft extension applied to each natural lash, offering a subtle lift and elegant definition. The essence of effortless, everyday beauty.</p>
+                    <ul class="space-y-2 text-gray-700 font-medium">
+                        <li>Classic Set: <span class="text-pink-600 font-bold">$100</span></li>
+                        <li>Classic Fill: <span class="text-pink-600 font-bold">$60</span></li>
+                        <li>Mini Fill: <span class="text-pink-600 font-bold">$40</span></li>
+                        <li>Extended Fill: <span class="text-pink-600 font-bold">$70</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- The Blushing Flutter -->
+            <div class="bg-white rounded-3xl overflow-hidden shadow-2xl hover:shadow-pink-300/50 transition-shadow duration-300">
+                <img src="https://placehold.co/800x600/fde1e9/fff?text=The+Blushing+Flutter" alt="A photo of a hybrid lash set" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">The Blushing Flutter</h2>
+                    <p class="text-sm text-gray-500 mb-4">A gentle fusion of classic and volume techniques, custom-blended to create a light, wispy, and dimensional look. A perfect balance of natural charm and ethereal grace.</p>
+                    <ul class="space-y-2 text-gray-700 font-medium">
+                        <li>Hybrid Set: <span class="text-pink-600 font-bold">$140</span></li>
+                        <li>Hybrid Fill: <span class="text-pink-600 font-bold">$85</span></li>
+                        <li>Mini Fill: <span class="text-pink-600 font-bold">$40</span></li>
+                        <li>Extended Fill: <span class="text-pink-600 font-bold">$95</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- The Glimmering Gaze -->
+            <div class="bg-white rounded-3xl overflow-hidden shadow-2xl hover:shadow-pink-300/50 transition-shadow duration-300">
+                <img src="https://placehold.co/800x600/ffe4e1/fff?text=The+Glimmering+Gaze" alt="A photo of a wet look lash set" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">The Glimmering Gaze</h2>
+                    <p class="text-sm text-gray-500 mb-4">Inspired by the soft, dark look of wet mascara, this set uses a special technique to create a bold, glossy, and defined finish. For a captivating, dewy-eyed effect.</p>
+                    <ul class="space-y-2 text-gray-700 font-medium">
+                        <li>Wet Set: <span class="text-pink-600 font-bold">$135</span></li>
+                        <li>Wet Fill: <span class="text-pink-600 font-bold">$75</span></li>
+                        <li>Mini Fill: <span class="text-pink-600 font-bold">$40</span></li>
+                        <li>Extended Fill: <span class="text-pink-600 font-bold">$85</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- The Featherlight Veil -->
+            <div class="bg-white rounded-3xl overflow-hidden shadow-2xl hover:shadow-pink-300/50 transition-shadow duration-300">
+                <img src="https://placehold.co/800x600/fcd6da/fff?text=The+Featherlight+Veil" alt="A photo of a volume lash set" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">The Featherlight Veil</h2>
+                    <p class="text-sm text-gray-500 mb-4">Handmade, lightweight fans are meticulously applied to each lash, creating a plush, full, and fluffy lash line. This is true artistry for a captivating, glamorous look.</p>
+                    <ul class="space-y-2 text-gray-700 font-medium">
+                        <li>Volume Set: <span class="text-pink-600 font-bold">$155</span></li>
+                        <li>Volume Fill: <span class="text-pink-600 font-bold">$95</span></li>
+                        <li>Mini Fill: <span class="text-pink-600 font-bold">$50</span></li>
+                        <li>Extended Fill: <span class="text-pink-600 font-bold">$105</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- The Dreamy Fullness -->
+            <div class="bg-white rounded-3xl overflow-hidden shadow-2xl hover:shadow-pink-300/50 transition-shadow duration-300">
+                <img src="https://placehold.co/800x600/f8b9cb/fff?text=The+Dreamy+Fullness" alt="A photo of a mega volume lash set" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">The Dreamy Fullness</h2>
+                    <p class="text-sm text-gray-500 mb-4">Our most dramatic offering, this set uses ultra-fine fans to achieve a dense, incredibly full, and intensely dark lash line. The ultimate statement in lash artistry, designed to turn heads.</p>
+                    <ul class="space-y-2 text-gray-700 font-medium">
+                        <li>Mega Volume Set: <span class="text-pink-600 font-bold">$170</span></li>
+                        <li>Mega Volume Fill: <span class="text-pink-600 font-bold">$100</span></li>
+                        <li>Mini Fill: <span class="text-pink-600 font-bold">$50</span></li>
+                        <li>Extended Fill: <span class="text-pink-600 font-bold">$110</span></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center mt-12 text-gray-500">
+            <p>Thank you for choosing PrettyBlink CO. We look forward to creating your perfect set.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
